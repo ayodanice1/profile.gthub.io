@@ -1,0 +1,139 @@
+body	{
+	background-color: #5f45bb;
+  background-image: linear-gradient(to bottom right, #180c0c, #d054e4);
+  color: #fff;
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  min-height: 100vh;
+  min-width: 300px;
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  padding: 4.0em;
+}
+p 	{
+	color: darkgrey;
+	font-size: 1.8em;
+}
+p em 	{ text-transform: capitalize; }
+span 	{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+hr {
+  background-color: #ff470f;
+  border: none;
+  height: 1px;
+  transform-origin: center left;
+  width: 100%;
+}
+summary 	{ font-size: 1.5rem; }
+.header 	{
+	width: 100%;
+	line-height: 1.235;
+	font-family: cursive;
+}
+.header h1 	{
+	font-size: 3.5rem;
+	color: steelblue;
+}
+.footer 	{
+	display: flex;
+	width: 100%;
+	line-height: 1.235;
+	font-family: cursive;
+}
+.footer p 	{ font-size: 20px; }
+.footer-notes 	{
+	width: 50%;
+	position: relative;
+	padding: 1.0em 2.0em;
+}
+.contact-form 	{
+	width: 50%;
+	position: relative;
+	padding: 1.0em 2.0em;
+}
+.content 	{
+	min-height: 100vh;
+}
+.main-content 	{
+	padding: 1.0em 2.0em;
+	display: inline-block;
+}
+.picture 	{
+	float: right;
+	margin: 30px;
+}
+.bio-data 	{
+
+}
+form 	{
+	clear: both;
+	width: 700px;
+}
+form p {
+	color: grey;
+	font-weight: bold;
+}
+input, textarea		{
+	width: 150px;
+	text-align: left;
+	background-color: #EEEEEE;
+	border: 0px;
+	font-size: 0.85em;
+	color: grey;
+	width: 50%;
+	padding: 0.5em ;
+}
+#submit 	{
+	text-align: center;
+	color: violet;
+	font-weight: bold;
+	border-radius: 15px;
+}
+#submit:hover 	{
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+  transform: scale(1.02) translateY(-4px);
+}
+#submit:active  {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  transform: scale(0.98) translateY(-2px);
+}
+a 	{
+	text-decoration: none;
+	color: currentColor;
+}
+.social 	{
+	letter-spacing: 0.5rem;
+}
+.social li 	{
+	display: inline;
+	font-size: 1.5rem;
+	list-style-type: none;
+	margin-right: 2.5rem;
+}
+.social li:hover 	{
+	color: pink;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 799px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 3rem;
+  }
+  .side {
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  hr {
+    background-color: #ff470f;
+    border: none;
+    height: 1px;
+    margin-top: 1.5rem;
+    transform-origin: center left;
+    width: 100%;
+  }
+}
